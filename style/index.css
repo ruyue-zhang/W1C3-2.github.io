@@ -62,12 +62,23 @@ a {
   position:absolute;
   top:90px;
   left:8px;
-
+  display: none;
 }
 
+.L1 li:hover .L2 {
+   display:block;
+}
+.icon {
+  color:rgb(243, 64, 64);
+  position: absolute;
+  left: 280px;
+  top: -25px;
+}
 .box {
   width: 200px;
   height:500px;
 }
-
+.iconfont .icon-sanjiaoxing {
+  color:white;
+}
 
