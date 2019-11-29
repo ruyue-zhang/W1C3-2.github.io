@@ -59,20 +59,22 @@ a {
   color: aliceblue;
 }
 .L2 {
+  margin-top:20px;
   position:absolute;
   top:90px;
   left:8px;
-  display: none;
+  display:none;
 }
-
+.L1 li:hover .icon,
 .L1 li:hover .L2 {
    display:block;
 }
 .icon {
   color:rgb(243, 64, 64);
   position: absolute;
-  left: 280px;
-  top: -25px;
+  left: 260px;
+  top: -43px;
+  display:none;
 }
 .box {
   width: 200px;
